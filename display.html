@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div style=" font-size: 30px;  text-align: center;">
+   <div style="font-size: 40px; color: red; margin: 0 auto;">
+       Here's Your data
+   </div>
+   The Email is equal to:         <span id="data"> Email</span><br><br>
+   The Password is equal to:      <span id="data1"> Password</span><br><br>
+   The name is equal to :         <span id="data2"> name</span><br><br>
+   The Telephone is equal to:     <span id="data3"> Telephone</span><br><br>
+   </div>
+
+   <script type="text/javascript">
+
+     document.getElementById("data").innerHTML=localStorage.getItem("txtValue");
+     document.getElementById("data1").innerHTML=localStorage.getItem("txtValue1");
+     document.getElementById("data2").innerHTML=localStorage.getItem("txtValue2");
+     document.getElementById("data3").innerHTML=localStorage.getItem("txtValue3");
+
+   </script>
+  </body>
+</html>

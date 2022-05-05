@@ -1,0 +1,67 @@
+
+
+.top-container{
+  background-color: #E8F9FD;
+  height: 80px;
+  margin-bottom: 60px;
+}
+
+
+
+.login-container{
+  height: 25rem;
+  border: 3px solid;
+  margin:auto;
+  padding-top: 3%;
+  background-color: #79DAE8;
+
+}
+
+
+.bottom-container{
+  margin-top: 70px;
+  height: 80px;
+  background-color: #2155CD;
+
+}
+
+.name{
+ position: absolute;
+ margin: 3% 10% 5px;
+}
+
+#name{
+ position: absolute;
+ margin: 3% 20% 5px;
+}
+
+.email{
+ position: absolute;
+ margin: 6% 10% 5px;
+}
+#email{
+ position: absolute;
+ margin: 6% 20% 5px;
+}
+.phone{
+ position: absolute;
+ margin: 9% 10% 5px;
+
+}
+#telephone{
+   position: absolute;
+   margin: 9% 20% 5px;
+}
+.password{
+   position: absolute;
+   margin: 12% 10% 5px;
+}
+#password{
+   position: absolute;
+   margin: 12% 20% 5px;
+}
+
+.btn-login{
+  margin: 40% 45% 5px;
+  width: 64px;
+}
